@@ -1,6 +1,6 @@
 //Cydia Repos
-//Pedro Adelino
-//Nara Logic
+//by Pedro Adelino
+//Nara Logic 2020
 //www.bypedro.eu
 
 //Version
@@ -82,6 +82,7 @@ int main(int argc, char **argv)
                 fprintf(file, "deb http://cydia.oatmealdome.me/ ./\n");
                 fprintf(file, "deb http://telaaedifex.com/repo/ ./\n");
                 fprintf(file, "deb http://repo.hackyouriphone.org/ ./\n");
+                fprintf(file, "deb http://apt.arx8x.net/ ./\n");
                 fclose(file); //Save data to file
                 printf("\033[1;32m"); // Green color
                 printf("Repos installed.\n");
